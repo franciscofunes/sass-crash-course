@@ -32,5 +32,6 @@ header button::after, .contact button::after {
 
 .contact {
   background: cornflowerblue;
+  width: 100% -20%;
 }
 /*# sourceMappingURL=style.css.map */
