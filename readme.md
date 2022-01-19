@@ -3,7 +3,7 @@
 <h5 align="center"><a target="_blank" href="https://www.youtube.com/watch?v=Zz6eOVaaelI">Crash Course Link</a></h5>
 <hr>
 
-- 🌱 I’m currently learning **.NET C#**
+- 🌱 I’m currently learning **Sass**
 
 - 👨‍💻 All of my projects are available at [https://franciscofunes.netlify.com/](https://franciscofunes.netlify.com/)
 
