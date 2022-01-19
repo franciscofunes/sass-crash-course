@@ -1,0 +1,26 @@
+@import "./variables";
+
+@mixin flexCenter($direction, $background) {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+  background: $background;
+}
+
+header {
+  @include flexCenter(column, coral);
+  //   background: rgb(241, 241, 195);
+  height: 100vh;
+  color: $textColor;
+  button {
+    background: $primaryBtn;
+    &:hover {
+      background: rgb(179, 154, 247);
+    }
+    &::after {
+      content: " your sass-journey";
+    }
+  }
+}
