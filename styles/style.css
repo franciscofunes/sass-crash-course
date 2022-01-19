@@ -6,10 +6,19 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #333436;
 }
 
 header button {
   background: #66c5eb;
+}
+
+header button:hover {
+  background: #b39af7;
+}
+
+header button::after {
+  content: " your journey";
 }
 
 .contact button {
