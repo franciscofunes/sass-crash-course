@@ -2,5 +2,7 @@
 @import "./variables";
 
 .contact {
-  @include flexCenter(column, lightblue);
+  @extend header;
+  background: cornflowerblue;
+  // @include flexCenter(column, lightblue);
 }
